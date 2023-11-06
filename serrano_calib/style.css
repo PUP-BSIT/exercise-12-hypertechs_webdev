@@ -53,11 +53,15 @@ body {
 }
 
 #intro {
-  height: 9em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  //height: 9em;
 }
 
 #intro p {
-  margin-left: 10em;
+  margin-left: 2em;
+  max-width: 35em;
 }
 
 .section-title {
