@@ -343,12 +343,22 @@ h3 {
   margin-right: 60px;
   margin-top: -30px;
   font-family: Google Sans, sans-serif;
-  width: 300px;
+  width: 400px;
+  transition: background-color 0.3s ease-in-out, transform 0.05s ease-in-out;
 }
 
 #comment-form button:hover {
   background-color: var(--button);
 }
+
+#comment-form button:active {
+  transform: scale(0.90);
+}
+
+#comment-form button i {
+  margin-right: 10px;
+}
+
 
 /* comments section */
 
