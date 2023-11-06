@@ -1,7 +1,7 @@
 
     let nameField = document.getElementById('name');
     let commentField = document.getElementById('comment');
-    let commentButton = document.getElementById('comment-button');
+    let commentButton = document.getElementById('comment_button');
 
     function enableCommentButton() {
     if (nameField.value != '' && commentField.value != '') {

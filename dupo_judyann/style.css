@@ -38,7 +38,7 @@ body {
   background: rgb(86, 156, 131) ;
 }
 
-h1.myheader{
+h1.my-header{
 	background-color:rgb(109, 178, 187);
 	color:#2341ca;
 	font-size: 50px;
@@ -94,9 +94,9 @@ h2.gal{
 	font-style: italic;
 }
 
-div.myhobbies {border-style: ridge;}
-div.myworks {border-style: ridge;}
-div.mygoals {border-style: ridge;}
+div.my-hobbies {border-style: ridge;}
+div.my-works {border-style: ridge;}
+div.my-goals {border-style: ridge;}
 div.testimonial {border-style: ridge;}
 
 ul {
