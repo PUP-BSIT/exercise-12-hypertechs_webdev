@@ -228,7 +228,6 @@ h3 {
   text-align: justify;
 }
 
-
 #gallery {
   padding-left: 0px;
   margin-left: 0px;
@@ -352,13 +351,12 @@ h3 {
 }
 
 #comment-form button:active {
-  transform: scale(0.90);
+  transform: scale(0.9);
 }
 
 #comment-form button i {
   margin-right: 10px;
 }
-
 
 /* comments section */
 
