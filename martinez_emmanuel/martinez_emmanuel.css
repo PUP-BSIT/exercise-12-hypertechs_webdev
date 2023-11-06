@@ -157,14 +157,6 @@ h3 {
   font-size: 25px;
 }
 
-mark {
-  background-color: var(--primary);
-  color: white;
-  font-weight: bold;
-  padding: 0.1em 0.3em;
-  border-radius: 10px;
-}
-
 #works a {
   position: relative;
   font-size: 25px;
@@ -248,6 +240,14 @@ mark {
   transform: scale(1.05);
 }
 
+.beta-logo {
+  width: 60px;
+  margin-left: 10px;
+  margin-bottom: -5px;
+  padding: 0;
+  border-radius: 10px;
+}
+
 #comments {
   margin-top: 50px;
   margin-left: 0px;
@@ -259,6 +259,7 @@ mark {
 #comments h2 {
   margin-bottom: 70px;
   color: var(--primary);
+  display: inline-block;
 }
 
 #comment-list {

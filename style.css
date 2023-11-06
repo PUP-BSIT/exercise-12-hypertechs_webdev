@@ -50,7 +50,7 @@ h2 {
   text-align: center;
   margin: 20px;
   z-index: 2;
-  transition: transform 0.3s ease; /* Add a transition for the transform property */
+  transition: transform 0.3s ease;
   text-decoration: none;
 }
 
@@ -66,11 +66,11 @@ h2 {
 }
 
 .team-member img:active {
-  transform: scale(0.90); /* Scale the image slightly when active (pressed) */
+  transform: scale(0.90);
 }
 
 .team-member:hover {
-  transform: scale(1.07); /* Scale the image slightly on hover */
+  transform: scale(1.07);
 }
 
 .member-name {
