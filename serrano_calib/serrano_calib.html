@@ -7,12 +7,12 @@
   <body>
     <div id="content_container"> <div class="content" id="title">
       <h1>
-        <span class="title-initials">C</span><!--clear space
-        --><span class="title-text">alib </span><!--
-        --><span class="title-initials">S</span><!--
-        --><span class="title-text">errano's </span><!--
-        --><span class="title-initials">W</span><!--
-        --><span class="title-text">ebpage</span>
+        <span class="title-initials"
+          >C</span><span class="title-text">alib </span>
+        <span class="title-initials"
+          >S</span><span class="title-text">errano's </span>
+        <span class="title-initials"
+          >W</span><span class="title-text">ebpage</span>
       </h1>
     </div>
 
@@ -37,12 +37,11 @@
     <div class="content" id="works">
       <h2 class="section-title" >My works</h2>
       <ol>
-        <li><a href="./webpage-01.html">My Blog</a></li>
-        <li><a href="./webpage-02.html">My softwares homepage</a></li>
-        <li><a href="./webpage-03.html">A film that I made with my friends</a>
-          </li>
-        <li><a href="./webpage-04.html">Music playlists</a></li>
-        <li><a href="./webpage-05.html">My YouTube channel</a></li>
+        <li><a href="#">My Blog</a></li>
+        <li><a href="#">My softwares homepage</a></li>
+        <li><a href="#">A film that I made with my friends</a></li>
+        <li><a href="#">Music playlists</a></li>
+        <li><a href="#">My YouTube channel</a></li>
       </ol>
     </div>
     
@@ -107,19 +106,18 @@
       <p class="comment-text">I'm interested in learning more about
         hardware too. We should attend a workshop together!</p>
       <p class="comment-name">maryjoydanay said:</p>
-      <p class="comment-text">Wow! Your webpage is very professional :<</p>
+      <p class="comment-text">Wow! Your webpage is very professional </p>
 
       <fieldset id="form_comment">
         <legend>Add your comment</legend>
-        <p><label>Your name <input id="form_comment_name" 
-          onInput="enableButton ()" type="text"/></label>
-        </p>
-        <p><label>Your comment <textarea id="form_comment_text" 
-          onInput="enableButton ()"></textarea></label></p>
+        <p><label for="form_comment_name">Your name </label>
+          <input id="form_comment_name" type="text"/></p>
+        <p><label for="form_comment_text">Your comment </label>
+          <textarea id="form_comment_text"></textarea></p>
         <p><button id="button_comment" disabled="true" 
           type="button">Add comment</button></p>
       </fieldset>
-    </div> </div> 
+    </div></div> 
     <script src="script.js"></script>
   </body>
 </html>

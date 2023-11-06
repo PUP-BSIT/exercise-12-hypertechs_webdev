@@ -4,6 +4,8 @@ let buttonComment   = document.getElementById ("button_comment"),
     formComment     = document.querySelector ("#form_comment");
 
 buttonComment.addEventListener ("click", addComment);
+formCommentName.addEventListener ("input", enableButton);
+formCommentText.addEventListener ("input", enableButton);
 
 function enableButton () {
   buttonComment.disabled = formCommentName.value.length < 1 || 
