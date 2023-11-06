@@ -40,17 +40,12 @@ div.goal{
 	background-color: #ffcce7;
 }
 
-div.comments{
+div.comment{
 	color: black;
 	background-color: #daf2dc;
 }
 
-div.comment{
-	color: black;
-	background-color: #81b7d2;
-}
-
 div.gallery{
 	color: black;
-	background-color: #4d5198;
+	background-color: #81b7d2;
 }
