@@ -14,7 +14,8 @@ let commentID = document.getElementById('comment_id');
 
 commentButton.addEventListener("click", function(){
     let commentContainer = document.createElement('p');
-    commentContainer.innerHTML = `<p><strong>${nameField.value}: </strong>${commentField.value}</p>`;
+    commentContainer.innerHTML = `<p><strong>${nameField.value}: </strong>
+        ${commentField.value}</p>`;
     commentID.append(commentContainer);
     nameField.value = "";
     commentField.value = "";
