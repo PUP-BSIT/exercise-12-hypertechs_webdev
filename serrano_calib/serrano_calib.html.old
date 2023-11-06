@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Serrano Calib Page</title>
+  </head>
+  <body>
+    <div>
+      <h1>Serrano, Calib</h1>
+    </div>
+
+    <div>
+      <h2>My interests and hobbies</h2>
+      <ul>
+        <li>I love coding</li>
+        <li>Listening to music</li>
+        <li>Eating new kinds of food</li>
+        <li>Riding bicycle</li>
+        <li>Reading fiction books</li>
+      </ul>
+    </div>
+    
+    <div>
+      <h2>My works</h2>
+      <ol>
+        <li><a href="./webpage-01.html">Webpage 1</a></li>
+        <li><a href="./webpage-02.html">Webpage 2</a></li>
+        <li><a href="./webpage-03.html">Webpage 3</a></li>
+        <li><a href="./webpage-04.html">Webpage 4</a></li>
+        <li><a href="./webpage-05.html">Webpage 5</a></li>
+      </ol>
+    </div>
+    
+    <div>
+      <h2>Testimonials</h2>
+    </div>
+
+    <div>
+      <h2>Gallery</h2>
+      <img src="./images/shape-01.png" />
+      <img src="./images/shape-02.png" />
+      <img src="./images/shape-03.png" />
+      <img src="./images/shape-04.png" />
+      <img src="./images/shape-05.png" />
+      <img src="./images/shape-06.png" />
+    </div>
+  </body>
+</html>
