@@ -24,4 +24,5 @@ function addComment () {
   formComment.before (commentText);   
   formCommentText.value = "";
   formCommentName.value = "";
+  buttonComment.disabled = true;
 }
