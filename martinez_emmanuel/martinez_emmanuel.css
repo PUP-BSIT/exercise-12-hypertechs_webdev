@@ -316,28 +316,28 @@ h3 {
 }
 
 #comments h2 {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   color: var(--primary);
   display: inline-block;
 }
 
-#comment-list {
+#comment_list {
   clear: both;
   margin-top: 60px;
 }
 
-#comment-form {
+#comment_form {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
 }
 
-#comment-form label {
+#comment_form label {
   display: none;
 }
 
-#comment-form input,
-#comment-form textarea {
+#comment_form input,
+#comment_form textarea {
   max-width: 500px;
   width: 100%;
   padding: 10px;
@@ -353,19 +353,19 @@ h3 {
   resize: none;
 }
 
-#comment-form input::placeholder,
-#comment-form textarea::placeholder {
+#comment_form input::placeholder,
+#comment_form textarea::placeholder {
   color: var(--secondary);
   font-size: 22px;
   font-family: Google Sans, sans-serif;
   padding-left: 10px;
 }
 
-#comment-form textarea::placeholder {
+#comment_form textarea::placeholder {
   padding-top: 5px;
 }
 
-#comment-form button {
+#comment_form button {
   background-color: var(--secondary);
   color: var(--text);
   padding: 10px 20px;
@@ -380,15 +380,15 @@ h3 {
   transition: background-color 0.3s ease-in-out, transform 0.05s ease-in-out;
 }
 
-#comment-form button:hover {
+#comment_form button:hover {
   background-color: var(--button);
 }
 
-#comment-form button:active {
+#comment_form button:active {
   transform: scale(0.9);
 }
 
-#comment-form button i {
+#comment_form button i {
   margin-right: 10px;
 }
 

@@ -7,7 +7,7 @@ function addComment() {
         return;
     }
 
-    let commentList = document.getElementById('comment-list');
+    let commentList = document.getElementById('comment_list');
     let newComment = document.createElement('div');
     newComment.classList.add('comment-container');
 
