@@ -22,4 +22,6 @@ function addComment () {
   commentText.innerHTML = formCommentText.value;
   formComment.before (commentName);   
   formComment.before (commentText);   
+  formCommentText.value = "";
+  formCommentName.value = "";
 }
