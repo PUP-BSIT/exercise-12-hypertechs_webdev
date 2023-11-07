@@ -1,6 +1,5 @@
 let nameField = document.getElementById("name");
 let commentField = document.getElementById("comment");
-let comSection = document.getElementById("com_section");
 
 function validate(){
     if(nameField.value.length > 2 && commentField.value.length > 2){
@@ -10,9 +9,7 @@ function validate(){
     }
 }
 
-let commentBtn = document.getElementById("comment_button");
-
-commentBtn.addEventListener("click", function(){
+function commentButtonClickHandler() {
     let comSection = document.getElementById("comment_section");
     let commentHolder = document.createElement("p");
     commentHolder.innerHTML = ` <p><strong>${nameField.value}: </strong> 
@@ -21,4 +18,7 @@ commentBtn.addEventListener("click", function(){
     nameField.value = "";
     commentField.value = "";
     document.getElementById("comment_button").disabled = true;
-});
+}
+
+let commentBtn = document.getElementById("comment_button");
+commentBtn.addEventListener("click", commentButtonClickHandler);
