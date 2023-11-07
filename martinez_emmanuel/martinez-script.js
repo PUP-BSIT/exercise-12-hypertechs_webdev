@@ -9,7 +9,7 @@ function addComment() {
 
     var commentList = document.getElementById('comment-list');
     var newComment = document.createElement('div');
-    newComment.classList.add('comment-container'); // Add class for styling
+    newComment.classList.add('comment-container');
 
     var userIcon = document.createElement('img');
     userIcon.src = 'images/user_icon.jpg';
