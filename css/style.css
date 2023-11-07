@@ -56,7 +56,7 @@ h2 {
 
 .team-member img {
   position: relative;
-  width: 230px;
+  width: 210px;
   border: 4px solid;
   border-image: linear-gradient(to right, var(--primary), var(--secondary));
   border-image-slice: 1;
