@@ -12,7 +12,7 @@ function enableCommentButton() {
 
 let commentID = document.getElementById('comment_id');
 
-commentButton.addEventListener("click", function(){
+function commentButtonClickHandler() {
     let commentContainer = document.createElement('p');
     commentContainer.innerHTML = `<p><strong>${nameField.value}: </strong>
         ${commentField.value}</p>`;
@@ -20,4 +20,6 @@ commentButton.addEventListener("click", function(){
     nameField.value = "";
     commentField.value = "";
     commentButton.disabled = true;
-});
+}
+
+commentButton.addEventListener("click", commentButtonClickHandler);
