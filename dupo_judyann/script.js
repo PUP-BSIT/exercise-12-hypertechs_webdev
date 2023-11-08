@@ -1,9 +1,8 @@
+let nameField = document.getElementById('name');
+let commentField = document.getElementById('comment');
+let commentButton = document.getElementById('comment_button');
 
-    let nameField = document.getElementById('name');
-    let commentField = document.getElementById('comment');
-    let commentButton = document.getElementById('comment_button');
-
-    function enableCommentButton() {
+function enableCommentButton(){
     if (nameField.value != '' && commentField.value != '') {
         commentButton.disabled = false;
     } else {
@@ -11,11 +10,9 @@
     }
 }
 
-
-
 let idComment = document.getElementById('id_comment');
 
-commentButton.addEventListener("click", function(){
+function handleCommentButtonClick() {
     let commContainer = document.createElement('p');
     commContainer.innerHTML = `<p><strong>${nameField.value}:</strong>
     ${commentField.value}</p>`;
@@ -23,5 +20,6 @@ commentButton.addEventListener("click", function(){
     nameField.value = "";
     commentField.value = "";
     commentButton.disabled = true;
+}
 
-});
+commentButton.addEventListener("click", handleCommentButtonClick);
